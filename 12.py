@@ -1,19 +1,3 @@
-# from bs4 import BeautifulSoup
-# with open('E:/Programs/PycharmProjects/untitled4/test.html', encoding="utf-8") as file:
-#     src = file.read()
-# # print(src)
-# soup = BeautifulSoup(src, 'lxml')
-# a_all = soup.find_all("a")
-#
-# for item in a_all:
-#     item_text = item.text
-#     item_url = item.get("href")
-#     print(f'{item_text}:{item_url}')
-# def sq(atr):
-#     sq = atr*atr
-#     return sq
-# print(sq(5) +1)
-
 # Игра "Крестики - Нолики"
 import random
 from colorama import Fore
